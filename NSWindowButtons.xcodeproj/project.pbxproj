@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7017CE68142051950084FB1D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7017CE67142051950084FB1D /* Cocoa.framework */; };
+		7017CE72142051950084FB1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7017CE70142051950084FB1D /* InfoPlist.strings */; };
+		7017CE74142051950084FB1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7017CE73142051950084FB1D /* main.m */; };
+		7017CE78142051950084FB1D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7017CE76142051950084FB1D /* Credits.rtf */; };
+		7017CE7B142051950084FB1D /* NSWindowButtonsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7017CE7A142051950084FB1D /* NSWindowButtonsAppDelegate.m */; };
+		7017CE7E142051960084FB1D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7017CE7C142051960084FB1D /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7017CE63142051950084FB1D /* NSWindowButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSWindowButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7017CE67142051950084FB1D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7017CE6A142051950084FB1D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7017CE6B142051950084FB1D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7017CE6C142051950084FB1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7017CE6F142051950084FB1D /* NSWindowButtons-Info.plist */ = {isa = PBXFileReference; path = "NSWindowButtons-Info.plist"; sourceTree = "<group>"; };
+		7017CE71142051950084FB1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7017CE73142051950084FB1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7017CE75142051950084FB1D /* NSWindowButtons-Prefix.pch */ = {isa = PBXFileReference; path = "NSWindowButtons-Prefix.pch"; sourceTree = "<group>"; };
+		7017CE77142051950084FB1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7017CE79142051950084FB1D /* NSWindowButtonsAppDelegate.h */ = {isa = PBXFileReference; path = NSWindowButtonsAppDelegate.h; sourceTree = "<group>"; };
+		7017CE7A142051950084FB1D /* NSWindowButtonsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSWindowButtonsAppDelegate.m; sourceTree = "<group>"; };
+		7017CE7D142051960084FB1D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7017CE60142051950084FB1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7017CE68142051950084FB1D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7017CE58142051940084FB1D = {
+			isa = PBXGroup;
+			children = (
+				7017CE6D142051950084FB1D /* NSWindowButtons */,
+				7017CE66142051950084FB1D /* Frameworks */,
+				7017CE64142051950084FB1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7017CE64142051950084FB1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7017CE63142051950084FB1D /* NSWindowButtons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7017CE66142051950084FB1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7017CE67142051950084FB1D /* Cocoa.framework */,
+				7017CE69142051950084FB1D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7017CE69142051950084FB1D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7017CE6A142051950084FB1D /* AppKit.framework */,
+				7017CE6B142051950084FB1D /* CoreData.framework */,
+				7017CE6C142051950084FB1D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7017CE6D142051950084FB1D /* NSWindowButtons */ = {
+			isa = PBXGroup;
+			children = (
+				7017CE79142051950084FB1D /* NSWindowButtonsAppDelegate.h */,
+				7017CE7A142051950084FB1D /* NSWindowButtonsAppDelegate.m */,
+				7017CE7C142051960084FB1D /* MainMenu.xib */,
+				7017CE6E142051950084FB1D /* Supporting Files */,
+			);
+			path = NSWindowButtons;
+			sourceTree = "<group>";
+		};
+		7017CE6E142051950084FB1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7017CE6F142051950084FB1D /* NSWindowButtons-Info.plist */,
+				7017CE70142051950084FB1D /* InfoPlist.strings */,
+				7017CE73142051950084FB1D /* main.m */,
+				7017CE75142051950084FB1D /* NSWindowButtons-Prefix.pch */,
+				7017CE76142051950084FB1D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7017CE62142051950084FB1D /* NSWindowButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7017CE81142051960084FB1D /* Build configuration list for PBXNativeTarget "NSWindowButtons" */;
+			buildPhases = (
+				7017CE5F142051950084FB1D /* Sources */,
+				7017CE60142051950084FB1D /* Frameworks */,
+				7017CE61142051950084FB1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSWindowButtons;
+			productName = NSWindowButtons;
+			productReference = 7017CE63142051950084FB1D /* NSWindowButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7017CE5A142051940084FB1D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7017CE5D142051940084FB1D /* Build configuration list for PBXProject "NSWindowButtons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7017CE58142051940084FB1D;
+			productRefGroup = 7017CE64142051950084FB1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7017CE62142051950084FB1D /* NSWindowButtons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7017CE61142051950084FB1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7017CE72142051950084FB1D /* InfoPlist.strings in Resources */,
+				7017CE78142051950084FB1D /* Credits.rtf in Resources */,
+				7017CE7E142051960084FB1D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7017CE5F142051950084FB1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7017CE74142051950084FB1D /* main.m in Sources */,
+				7017CE7B142051950084FB1D /* NSWindowButtonsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7017CE70142051950084FB1D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7017CE71142051950084FB1D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7017CE76142051950084FB1D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7017CE77142051950084FB1D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7017CE7C142051960084FB1D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7017CE7D142051960084FB1D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7017CE7F142051960084FB1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7017CE80142051960084FB1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7017CE82142051960084FB1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSWindowButtons/NSWindowButtons-Prefix.pch";
+				INFOPLIST_FILE = "NSWindowButtons/NSWindowButtons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7017CE83142051960084FB1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSWindowButtons/NSWindowButtons-Prefix.pch";
+				INFOPLIST_FILE = "NSWindowButtons/NSWindowButtons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7017CE5D142051940084FB1D /* Build configuration list for PBXProject "NSWindowButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7017CE7F142051960084FB1D /* Debug */,
+				7017CE80142051960084FB1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7017CE81142051960084FB1D /* Build configuration list for PBXNativeTarget "NSWindowButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7017CE82142051960084FB1D /* Debug */,
+				7017CE83142051960084FB1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7017CE5A142051940084FB1D /* Project object */;
+}
