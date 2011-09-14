@@ -15,7 +15,7 @@
    viewToAdd.frame = NSMakeRect(x, [[self contentView] frame].size.height, viewToAdd.frame.size.width, [self heightOfTitleBar]);
    
    NSUInteger mask = 0;
-   if( x > viewToAdd.frame.size.width / 2 )
+   if( x > self.frame.size.width / 2.0 )
    {
       mask |= NSViewMinXMargin;
    }

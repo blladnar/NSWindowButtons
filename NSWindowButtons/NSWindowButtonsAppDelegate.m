@@ -16,8 +16,12 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
    NSButton *button = [[NSButton alloc] initWithFrame:NSMakeRect(0, 0, 100, 100)];
-   [button setBezelStyle:NSRoundedBezelStyle];
+   [button setBezelStyle:NSRecessedBezelStyle];
+   
+   NSButton *closeButton = [NSWindow standardWindowButton:NSWindowZoomButton forStyleMask:self.window.styleMask];
+
    [self.window addViewToTitleBar:button atXPosition:self.window.frame.size.width - button.frame.size.width - 10];
+   [self.window addViewToTitleBar:closeButton atXPosition:70];
 }
 
 @end
