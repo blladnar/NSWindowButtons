@@ -13,6 +13,7 @@
 		7017CE78142051950084FB1D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7017CE76142051950084FB1D /* Credits.rtf */; };
 		7017CE7B142051950084FB1D /* NSWindowButtonsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7017CE7A142051950084FB1D /* NSWindowButtonsAppDelegate.m */; };
 		7017CE7E142051960084FB1D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7017CE7C142051960084FB1D /* MainMenu.xib */; };
+		7017CE86142051D10084FB1D /* NSWindow+AccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7017CE85142051D10084FB1D /* NSWindow+AccessoryView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,16 @@
 		7017CE6A142051950084FB1D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		7017CE6B142051950084FB1D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		7017CE6C142051950084FB1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7017CE6F142051950084FB1D /* NSWindowButtons-Info.plist */ = {isa = PBXFileReference; path = "NSWindowButtons-Info.plist"; sourceTree = "<group>"; };
+		7017CE6F142051950084FB1D /* NSWindowButtons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSWindowButtons-Info.plist"; sourceTree = "<group>"; };
 		7017CE71142051950084FB1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7017CE73142051950084FB1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7017CE75142051950084FB1D /* NSWindowButtons-Prefix.pch */ = {isa = PBXFileReference; path = "NSWindowButtons-Prefix.pch"; sourceTree = "<group>"; };
+		7017CE75142051950084FB1D /* NSWindowButtons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSWindowButtons-Prefix.pch"; sourceTree = "<group>"; };
 		7017CE77142051950084FB1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		7017CE79142051950084FB1D /* NSWindowButtonsAppDelegate.h */ = {isa = PBXFileReference; path = NSWindowButtonsAppDelegate.h; sourceTree = "<group>"; };
+		7017CE79142051950084FB1D /* NSWindowButtonsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSWindowButtonsAppDelegate.h; sourceTree = "<group>"; };
 		7017CE7A142051950084FB1D /* NSWindowButtonsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSWindowButtonsAppDelegate.m; sourceTree = "<group>"; };
 		7017CE7D142051960084FB1D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7017CE84142051D10084FB1D /* NSWindow+AccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+AccessoryView.h"; sourceTree = "<group>"; };
+		7017CE85142051D10084FB1D /* NSWindow+AccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+AccessoryView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				7017CE7A142051950084FB1D /* NSWindowButtonsAppDelegate.m */,
 				7017CE7C142051960084FB1D /* MainMenu.xib */,
 				7017CE6E142051950084FB1D /* Supporting Files */,
+				7017CE84142051D10084FB1D /* NSWindow+AccessoryView.h */,
+				7017CE85142051D10084FB1D /* NSWindow+AccessoryView.m */,
 			);
 			path = NSWindowButtons;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			files = (
 				7017CE74142051950084FB1D /* main.m in Sources */,
 				7017CE7B142051950084FB1D /* NSWindowButtonsAppDelegate.m in Sources */,
+				7017CE86142051D10084FB1D /* NSWindow+AccessoryView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

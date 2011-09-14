@@ -7,6 +7,7 @@
 //
 
 #import "NSWindowButtonsAppDelegate.h"
+#import "NSWindow+AccessoryView.h"
 
 @implementation NSWindowButtonsAppDelegate
 
@@ -14,7 +15,9 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-   // Insert code here to initialize your application
+   NSButton *button = [[NSButton alloc] initWithFrame:NSMakeRect(0, 0, 100, 100)];
+   [button setBezelStyle:NSRoundedBezelStyle];
+   [self.window addViewToTitleBar:button atXPosition:self.window.frame.size.width - button.frame.size.width - 10];
 }
 
 @end
